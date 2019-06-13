@@ -73,7 +73,7 @@ You should see the following:
 # > Hi, Jim
 => nil
 ```
-
+ 
 Notice that our method `puts`-ed out the code we expected and **returned `nil`**. Why is that?
 
 That is because the return value of a `while` loop is always `nil`. If we want our method to return something else, we have to tell it to do so. 
